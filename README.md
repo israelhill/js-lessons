@@ -22,3 +22,5 @@ yarn install
 yarn test
 ```
 
+You can inspect `tests/linkedlist.test.js` to see exactly how your class is expected to behave.
+
