@@ -47,6 +47,12 @@ test('print an empty list', () => {
   expect(list.print()).toBe('null')
 })
 
+test('print a list with a single element', () => {
+  const list = new LinkedList()
+  list.add(25)
+  const expectation = '25 -> null'
+})
+
 test('print a list with multiple elements', () => {
   const list = new LinkedList()
   list.add(1)
